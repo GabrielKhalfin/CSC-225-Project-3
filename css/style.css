@@ -1,0 +1,38 @@
+html {
+    height: 100vh;
+  }
+  .header{
+      color: gray;
+  }
+  
+  body {
+    min-height: 100%;
+    background-color: powderblue;
+    font-family: "sans";
+  }
+  
+  h1 {
+    padding: 40px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .hover:not(.active):hover {
+    background-color: grey;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #loading {
+    font-size: 2rem;
+  }
